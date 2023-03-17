@@ -14,8 +14,8 @@ jobs:
       #You can specify the solution name here
       solution_name: ALMLab
       #Update your values here
-      BUILD_ENVIRONMENT_URL: https://mtc-dev.crm.dynamics.com/
-      PRODUCTION_ENVIRONMENT_URL: https://mtc-test.crm.dynamics.com/
+      BUILD_ENVIRONMENT_URL: https://mtc-test.crm.dynamics.com/
+      PRODUCTION_ENVIRONMENT_URL: https://mtc-prod.crm.dynamics.com/
       CLIENT_ID: cc3fd956-61bf-4d97-bdbb-38d5bae3d977
       TENANT_ID: 32dc2feb-7716-4cf8-b1a6-f02cf37fd6bf      
     secrets:
