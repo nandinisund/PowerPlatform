@@ -1,0 +1,28 @@
+{
+  "EnvironmentVariables": [
+    {
+      "SchemaName": "algit_FlowDataverse",
+      "Value": "Enterprise PROD"
+    },
+    {
+      "SchemaName": "algit_FlowSharePointList",
+      "Value": "Membership Interest PROD"
+    },
+    {
+      "SchemaName": "algit_FlowSharePointSite",
+      "Value": "D365WEbSite"
+    }
+  ],
+  "ConnectionReferences": [
+    {
+      "LogicalName": "algit_sharedcommondataserviceforapps_a3f95",
+      "ConnectionId": "f670b675-20e2-48ff-8b57-03011fafa668",
+      "ConnectorId": "/providers/Microsoft.PowerApps/apis/shared_commondataserviceforapps"
+    },
+    {
+      "LogicalName": "algit_sharedsharepointonline_5e580",
+      "ConnectionId": "5615500e-b5fb-462c-a4b3-92f94c954485",
+      "ConnectorId": "/providers/Microsoft.PowerApps/apis/shared_sharepointonline"
+    }
+  ]
+}
