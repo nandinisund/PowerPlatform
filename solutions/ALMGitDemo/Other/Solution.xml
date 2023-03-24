@@ -6,7 +6,7 @@
       <LocalizedName description="ALM Git Demo" languagecode="1033" />
     </LocalizedNames>
     <Descriptions />
-    <Version>1.0.0.0</Version>
+    <Version>1.0.0.1</Version>
     <Managed>0</Managed>
     <Publisher>
       <UniqueName>ALM_Git_Demo</UniqueName>
@@ -82,7 +82,13 @@
     <RootComponents>
       <RootComponent type="1" schemaName="algit_timeoffrequest" behavior="0" />
       <RootComponent type="62" schemaName="algit_ContactManagerALMGit" behavior="0" />
+      <RootComponent type="80" schemaName="algit_ContactManagerALMGit" behavior="0" />
     </RootComponents>
-    <MissingDependencies />
+    <MissingDependencies>
+      <MissingDependency>
+        <Required type="61" schemaName="msdyn_/Images/AppModule_Default_Icon.png" displayName="msdyn_/Images/AppModule_Default_Icon.png" solution="AppModuleWebResources (2.5)" />
+        <Dependent type="80" schemaName="algit_ContactManagerALMGit" displayName="Contact Manager - ALMGit" />
+      </MissingDependency>
+    </MissingDependencies>
   </SolutionManifest>
 </ImportExportXml>
